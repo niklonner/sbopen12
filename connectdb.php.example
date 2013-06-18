@@ -7,6 +7,6 @@ $dbpass = 'db_pass'; //
 $conn = mysql_connect($dbhost, $dbuser, $dbpass)
     or die ('Error connecting to database');
 
-$dbname = 'gothiaopen_sb';
+$dbname = 'db_name';
 mysql_select_db($dbname);
 ?>
