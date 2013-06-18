@@ -1,0 +1,65 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Stadium Bowl Open</title>
+		<link type="text/css" href="css/mainstyle.css" rel="stylesheet" />	
+		<link type="text/css" href="css/humanity/jquery-ui-1.8.18.custom.css" rel="stylesheet" />	
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.18.custom.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+
+				// Accordion
+				$("#accordion").accordion({ header: "h3" });
+	
+				// Tabs
+				$('#tabs').tabs({ fx : {height : 'toggle',
+				                        opacity : 'toggle',
+				                        duration: 'slow'},
+				                        ajaxOptions: {cache:false}  });
+	
+
+				
+			});
+		</script>
+
+
+	</head>
+
+	<body>
+		<div id="tabs">
+			<ul>
+				<li><a href="#valkommen">Välkommen!</a></li>
+				<li><a href="format.php">Tävlingsformat</a></li>
+				<li><a href="resultat.php">Resultat</a></li>
+				<li><a href="anmalan.php">Anmälan</a></li>
+				<li><a href="starter.php">Starter</a></li>
+				<li><a href="kontakt.php">Kontakt</a></li>
+			</ul>
+
+			<div id="valkommen">
+			
+				<h1>Välkommen till anmälningssidan för Stadium Bowl Open 2012!</h1>
+	<p>
+	    Tävlingen spelas 31 mars - 9 april i Lundby Stadium Bowl, Göteborg.
+    </p>
+    <p>
+        Läs mer om tävlingen under 'Tävlingsformat' ovan.
+    </p>
+	<p>
+        <strong>OBS sidan är fortfarande under uppbyggnad och funktionalitet kommer att tillkomma allt eftersom. Anmälan (och avanmälan) ska dock fungera.</strong>
+    </p>
+			
+			</div>
+		</div>
+	
+		<div class="footer">
+		    <p> Arrangör: Team Gothia BC <a href="http://www.teamgothiabc.se">www.teamgothiabc.se</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.stadiumbowl.se" target="_BLANK">Lundby Stadium Bowl</a>: 031-221517</p>
+		</div>
+
+
+	</body>
+</html>
+
+

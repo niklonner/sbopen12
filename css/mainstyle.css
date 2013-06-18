@@ -1,0 +1,30 @@
+html		{overflow-y:scroll}
+
+body    {
+            background-color:rgb(255,250,245);
+            max-width:900px;
+            font: 62.5% "Trebuchet MS", sans-serif;
+            margin-left: auto;
+            margin-right:auto;
+            margin-top:50px;
+        }
+
+a       {text-decoration:none}
+
+.footer {color:rgb(100,100,100);
+        text-align:center}
+
+#starter a {color:rgb(30,30,225)}
+        
+#starter a:hover {color:rgb(150,150,225);}
+/*
+.start_button
+        {
+            border-color:#cdc3b7 !important;
+        }
+  */      
+/*.start_button:hover
+        {
+            border-color:#f5ad66 !important;
+            color:#a46313 !important;
+        }*/
